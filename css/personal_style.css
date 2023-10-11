@@ -1,0 +1,114 @@
+/**** ESTILOS PERSONALIZADOS ****/
+/*** Oculta los links que enlazan a la misma pagina html que esta abierta (Es dinamico para todas las paginas) ***/
+
+.estilo_header {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: -50px;
+}
+
+/*** stilos pagina menu_inicio.php ***/
+.pad_bt_4_5{
+    padding: 4.5rem 0;
+}
+.style_card{
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px black;
+}
+.text_gold{
+    color: #a48228;
+}
+.cards-centrar{
+    justify-content: center;
+}
+
+
+.sm_img_tam{
+    width: 80px!important;
+}
+
+.form-group.note-form-group.note-group-select-from-files{
+    display: none!important;
+}
+
+.input#archivos {
+    color: #2fa3ea!important;
+}
+
+
+
+/** stilos pagina crear_plantilla.php  **/
+.note-editing-area ol, ul {
+    padding-left: 40px;
+}
+
+/** stilos pagina menu_plantilla.php **/
+.w-35_sombr{
+    width: 35%;
+    box-shadow: 0px 2px 5px black;
+}
+
+.btn_sombra{
+    box-shadow: 0px 1px 5px black;
+}
+
+.clr-edit-plant {
+    background-color: #3d8e10c4;
+    color: #fff;
+}
+
+.clr-delete-plant {
+    background-color: #e0583deb;
+    color: #fff;
+}
+
+/** stilos pagina editar_plantilla.php **/
+button.note-btn.btn.btn-light.btn-sm[aria-label="Video"] {
+    display: none;
+}
+
+/** stilos pagina carga_csv.php **/
+.config-btn-azul{
+    -webkit-background-size: 200% auto; 
+    background-size: 200% auto;
+    color: #fff;
+    background-color: #6697fa;
+    padding: 0.4rem 1.25rem;
+}
+
+.wid-22r{
+    width: 22rem;
+}
+
+/** stilos pagina menu_enviar_correos.php **/
+.clr-ver-plant {
+    background-color: #3d8e10c4;
+    color: #fff;
+    padding: 0.8rem 1.25rem; 
+    text-transform: none;
+}
+
+.clr-adj-csv {
+    background-color: #5f88d9;
+    color: #fff;
+    padding: 0.8rem 1.25rem; 
+    text-transform: none;
+}
+
+/** stilos pagina plantilla_enviar_correos.php **/
+.clr-gold{
+    color: #a48228!important;
+}
+
+/** stilos pagina adjuntar_csv_plantilla.php **/
+ol{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+  .loader.active {
+    display: block;
+  }
